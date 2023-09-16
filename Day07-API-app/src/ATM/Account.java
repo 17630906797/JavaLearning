@@ -1,16 +1,16 @@
 package ATM;
 
-public class Acount {
+public class Account {
           private String cardid;
           private String password;
           private String name;
           private char sex;
           private double money;
 
-          public Acount() {
+          public Account() {
           }
 
-          public Acount(String cardid, String password, String name, char sex, double money) {
+          public Account(String cardid, String password, String name, char sex, double money) {
                     this.cardid = cardid;
                     this.password = password;
                     this.name = name;
